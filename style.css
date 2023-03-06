@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.opintr{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imgs/frr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#lista{
+    background-image: url(imgs/bg_navbar.jpg);
+    background-repeat: repeat-x;
+    position: absolute;
+    width: 100%;
+    border: 0;
+    min-height: 58px;
+    overflow: hidden;
+    list-style-type: none;
+}
+.opt{
+    float: left;
+    padding: 4px;
+    margin-left: 10px;
+    
+}
+.linkopt{
+    text-decoration: none;
+    color: antiquewhite;
+    text-transform: uppercase;
+    display: block;
+    padding: 17px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.linkopt:hover{
+    background-color: rgb(75, 147, 206);
+}
+#hepea{
+    margin-top: 3.05%;
+    margin-left: 6.15%;
+    padding-bottom: 6px;
+   
+}
+#fondo{
+     background-image: url(imgs/bg_siteheader.jpg);
+     background-repeat: repeat-x;
+     width: 100%;
+     height: 18vh;
+}
+#texto{
+    position: relative;
+    width: 45%;
+    height: 150px;
+    top: 200px;
+    left: 90px;
+    color: black;
+}
+#boton{
+    text-decoration: none;
+    background-color: brown;
+    color: aliceblue;
+    border: 25px;
+    border-radius: 6px;
+    border-color: brown;
+    padding: 11px 19px;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+    font-family: 'Lato', sans-serif;
+    line-height: initial;
+    font-size: 17.5px;
+}
+#Herramientas{
+    font-weight: 900;
+    text-transform: initial;
+    line-height: initial;
+    font-family: 'Lato', sans-serif;
+}
+#Hrr2{
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    line-height: initial;
+    text-transform: initial;
+}
+#separador{
+    height: 20px;
+    display: block;
+}
+.img-mrc{
+    position: relative;
+    width: 230px;
+    height: 230px;
+}
+.img-mrc .mrc{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.contenido-img{
+    margin: 0 40px;
+}
+.contenedor-img{
+    width: 100%;
+}
