@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.opintr{
+.intro{
     height: 100vh;
     width: 100%;
     background-image: url(imgs/frr.png);
@@ -11,7 +11,7 @@
     background-size: cover;
     position: relative;
 }
-#lista{
+.lista{
     background-image: url(imgs/bg_navbar.jpg);
     background-repeat: repeat-x;
     position: absolute;
@@ -25,7 +25,6 @@
     float: left;
     padding: 4px;
     margin-left: 10px;
-    
 }
 .linkopt{
     text-decoration: none;
@@ -39,13 +38,13 @@
 .linkopt:hover{
     background-color: rgb(75, 147, 206);
 }
-#hepea{
+.hepea{
     margin-top: 3.05%;
     margin-left: 6.15%;
     padding-bottom: 6px;
    
 }
-#fondo{
+.fondo{
      background-image: url(imgs/bg_siteheader.jpg);
      background-repeat: repeat-x;
      width: 100%;
@@ -59,9 +58,9 @@
     left: 90px;
     color: black;
 }
-#boton{
+.boton{
     text-decoration: none;
-    background-color: brown;
+    background-color: rgb(199, 76, 76);
     color: aliceblue;
     border: 25px;
     border-radius: 6px;
@@ -74,35 +73,95 @@
     line-height: initial;
     font-size: 17.5px;
 }
-#Herramientas{
+.Herramientas{
     font-weight: 900;
     text-transform: initial;
     line-height: initial;
     font-family: 'Lato', sans-serif;
 }
-#Hrr2{
+.Hrr2{
     font-weight: 500;
     font-family: 'Lato', sans-serif;
     line-height: initial;
     text-transform: initial;
 }
-#separador{
+.separador{
     height: 20px;
     display: block;
 }
-.img-mrc{
-    position: relative;
-    width: 230px;
-    height: 230px;
+.swiper{
+    width: 95%;
+    height: 300px;
 }
-.img-mrc .mrc{
-    height: 100%;
-    width: 100%;
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img{
+    display: block;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
 }
-.contenido-img{
-    margin: 0 40px;
+.swiper{
+    margin-left: auto;
+    margin-right: auto;
 }
-.contenedor-img{
+.mid-img{
+    height: 67vh;
     width: 100%;
+    background-image: url(imgs/dtrn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.mid-img::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.txt{
+    padding-top: 150px;
+    padding-bottom: 200px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    position: absolute;
+}
+.ctlgComp{
+    font-weight: 700;
+    text-transform: initial;
+    line-height: initial;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+}
+.FabImpCom{
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: initial;
+    text-transform: initial;
+    font-size: 27px;
+}
+.btn{
+    text-decoration: none;
+    background-color: rgb(199, 76, 76);
+    color: aliceblue;
+    border: 25px;
+    border-radius: 6px;
+    border-color: brown;
+    text-transform: uppercase;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    line-height: initial;
+    font-size: 17.5px;
+    padding: 11px 80px;
+    top: 20px;
 }
